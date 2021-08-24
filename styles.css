@@ -1,5 +1,5 @@
 /* with ID */
-
+/*
 #heading{
     color: tan;
     background-color: orangered;
@@ -8,7 +8,7 @@
     color: tomato;
     background-color: yellow;
 }
-
+*/
 
 /* Basics */
 /*
@@ -34,6 +34,7 @@ body{
 */
 
 /* Class Selectors*/
+/*
 .Green{
     color: green;
     background-color: aqua;
@@ -42,10 +43,10 @@ body{
     color: red;
     background-color: seagreen;
 }
-
+*/
 
 /* DIV SPAN*/
-
+/*
 div{
     color: green;
     background-color: aqua;
@@ -57,8 +58,36 @@ span{
     color: yellow;
     background-color: teal;
 }
+*/
+/* INHERITANCE */
+/*
+body{
+    color: red;
+    font-family: monospace;
+    line-height: 1.5em;
+}
+div{
+    color: saddlebrown;
+    border: 3px solid black;
+}
+h2{
+    color: skyblue;
+}
+*/
+
+/* Universal Selector*/
+/* Universal Selector effect every object in code */
+/*
+*{
+    color: blue;
+}
+*/
+
 
 
 /*
 For comment use this structer
+
+-- classes > normal selectors > universal selectors
+
 */

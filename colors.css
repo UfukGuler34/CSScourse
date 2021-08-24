@@ -1,0 +1,39 @@
+/* Color Properties */
+/* BackGround-Colors */
+
+/**/
+/* With color name*/
+#one{
+    color: blueviolet;
+    background-color: coral;
+}
+#two{
+    color: crimson;
+    background-color: cyan;
+}
+
+/* With RGB */
+#three{
+    color: rgb(211, 152, 45);
+    background-color: rgb(11, 11, 244);
+}
+body{
+    background-color: rgb(170, 50, 155);
+}
+
+/* With RGBA, 0-1 opacity */
+#four{
+    color: rgb(70, 70, 70);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#five{
+    color: rgb(10, 0, 141);
+    background-color: rgba(255, 255, 150, 0.8);
+}
+
+/* With HEX */
+#six{
+    color: #fff;
+    background-color: #000;
+}
+
