@@ -1,3 +1,17 @@
+/* with ID */
+
+#heading{
+    color: tan;
+    background-color: orangered;
+}
+#subheading{
+    color: tomato;
+    background-color: yellow;
+}
+
+
+/* Basics */
+/*
 h1{
     color: blue;
     font-size: 4rem;
@@ -10,3 +24,41 @@ h3{
     color: rebeccapurple;
     font-size: 2rem;
 }
+p{
+    color: salmon;
+}
+
+body{
+    color: slategrey;
+}
+*/
+
+/* Class Selectors*/
+.Green{
+    color: green;
+    background-color: aqua;
+}
+.Red{
+    color: red;
+    background-color: seagreen;
+}
+
+
+/* DIV SPAN*/
+
+div{
+    color: green;
+    background-color: aqua;
+}
+span{
+    text-transform: uppercase;
+}
+.gry{
+    color: yellow;
+    background-color: teal;
+}
+
+
+/*
+For comment use this structer
+*/
