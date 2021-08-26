@@ -1,0 +1,70 @@
+/* Font size, Wİdth, Height*/
+#px {
+  font-size: 100px;
+  width: 400px;
+  height: 100px;
+  background-color: tomato;
+}
+
+/* Percent Values Relative*/
+.inner {
+  width: 50%;
+  height: 50%;
+  background-color: violet;
+}
+.outer {
+  width: 400px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+
+/*
+em - Relative depends on parents
+1em = 16px
+1em base value
+*/
+.absolute {
+  font-size: 32px;
+}
+
+.relative {
+  font-size: 2em;
+}
+*/
+
+/*
+rem - Relative depends on root
+1rem = 16px default browser 
+*/
+.absolutee {
+  font-size: 32px;
+}
+
+.relativee {
+  font-size: 2rem;
+}
+
+/*
+vh - Height - Percent of the screen
+cw - Width - Percent of screen
+*/
+
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background-color: teal;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+/*
+Browser styles
+*/
+
+h2{
+    color: rebeccapurple;
+    font-size: 64px;
+}

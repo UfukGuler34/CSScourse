@@ -1,0 +1,68 @@
+/*
+calc()
+perform math operations +-/*
+mix and mach values
+*/
+* {
+  margin: 0;
+}
+
+.navbar {
+  background-color: blue;
+  height: 100px;
+  color: cornsilk;
+  font-size: 3rem;
+}
+.banner {
+  background-color: rebeccapurple;
+  min-height: calc(100vh - 100px);
+}
+
+/* 
+font-size, font-family
+*/
+
+#one {
+  font-family: cursive;
+}
+#two {
+  font-family: Helvetica;
+}
+
+/* 
+font-stack generic-family
+*/
+#three {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* 
+Google Fonts
+*/
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
+
+#four {
+  font-family: "Hina Mincho", serif;
+}
+
+/*
+font-weight
+font-style
+*/
+
+#five {
+  font-family: "Hina Mincho", serif;
+  font-weight: bolder;
+}
+#six {
+  font-weight: 700;
+  font-style: italic;
+}
+#seven {
+  font-weight: 900;
+  font-style: normal;
+}
+.eight {
+  font-weight: lighter;
+  font-style: oblique;
+}
