@@ -39,8 +39,9 @@ font-stack generic-family
 /* 
 Google Fonts
 */
+/*
 @import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
-
+*/
 #four {
   font-family: "Hina Mincho", serif;
 }
@@ -62,7 +63,58 @@ font-style
   font-weight: 900;
   font-style: normal;
 }
-.eight {
+#eight {
   font-weight: lighter;
   font-style: oblique;
+}
+
+/*
+text-align
+text-indent
+*/
+#nine {
+  text-align: center;
+}
+#ten {
+  text-align: right;
+}
+#eleven {
+  text-align: left;
+}
+#twelve {
+  text-align: left;
+  text-indent: 50px;
+}
+
+/*
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+*/
+body {
+  text-transform: lowercase;
+}
+.thirteen {
+  line-height: 0.5em;
+}
+.fourteen {
+  line-height: 1em;
+  letter-spacing: 5px;
+  text-decoration: overline;
+}
+.fifteen {
+  line-height: 5em;
+  word-spacing: 20px;
+  text-decoration: underline;
+}
+.heading5 {
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+a {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
