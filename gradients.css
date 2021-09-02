@@ -1,0 +1,20 @@
+div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+.one {
+  background: linear-gradient(red, blue);
+}
+.two {
+  background: linear-gradient(to top, red, blue);
+}
+.three {
+  background: linear-gradient(to top left, red, blue, green);
+}
+.four {
+  background: linear-gradient(150deg, red, blue, green);
+}
+.five {
+  background: linear-gradient(rgba(16, 145, 168, 0.4), rgba(82, 88, 20, 0.9));
+}
