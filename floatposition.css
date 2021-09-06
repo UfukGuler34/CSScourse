@@ -1,0 +1,71 @@
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.one {
+  float: right;
+  margin-left: 50px;
+}
+
+/*
+p{
+    clear: both;
+}
+*/
+
+.two {
+  float: left;
+  background: red;
+  height: 200px;
+  width: 33.33%;
+}
+.three {
+  float: left;
+  background: orange;
+  height: 200px;
+  width: 33.33%;
+}
+.four {
+  float: left;
+  background: blue;
+  height: 200px;
+  width: 33.33%;
+}
+h1 {
+  clear: both;
+}
+
+.divdiv {
+  border: 3px solid red;
+  background: orange;
+  margin-top: 40px;
+  position: static;
+}
+.five {
+  background: blue;
+  /*
+  position: relative;
+  top: 50px;
+  right: 50%;
+  */
+}
+.six {
+  background: green;
+}
+.special {
+  background: lightcoral;
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+button {
+  background: aqua;
+  font-size: 30px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}

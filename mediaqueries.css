@@ -1,0 +1,48 @@
+/*
+Media Queries
+Responsive Design
+Style Elements on Different Screen Sizes
+min-width: -- starting from
+max-width: -- up to
+Mobile First
+*/
+
+body {
+  background: chartreuse;
+}
+.banner {
+  background: chocolate;
+}
+h1 {
+  color: cornsilk;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width:576px){
+    body{
+        background: cornflowerblue;
+
+    }
+    .banner{
+        background: red
+    }
+    h1{
+        color: darkturquoise;
+        font-size: 60px;
+    }
+}
+@media screen and (min-width:1008px){
+    body{
+        background: white;
+
+    }
+    .banner{
+        background: black
+    }
+    h1{
+        color: darkturquoise;
+        font-size: 60px;
+    }
+}
