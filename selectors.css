@@ -1,0 +1,85 @@
+* {
+  color: red;
+}
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: saddlebrown;
+}
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: seagreen;
+}
+p {
+  letter-spacing: 4px;
+}
+
+/*
+Descendan and Child Combination
+*/
+div h1 {
+  color: skyblue;
+}
+
+div > h1 {
+  color: tomato;
+}
+.header h1 {
+  color: yellow;
+}
+.header > h1 {
+  color: purple;
+}
+
+/* ::first-line ::first-letter */
+p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: 3rem;
+}
+
+/* :hover */
+p:hover {
+  color: royalblue;
+}
+.hed:hover {
+  background: seagreen;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* :link :visited :hover :active */
+a:link {
+  color: violet;
+}
+a:visited {
+  color: aquamarine;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: chartreuse;
+}
+
+/* :root root element of the document 
+html elemet
+general styles
+css variables
+*/
+:root {
+   background: chartreuse; 
+}
+h2 {
+  font-size: 3rem;
+}
+.absolute {
+  font-size: 24px;
+}
+.responsive {
+  font-size: 1.5rem;
+}

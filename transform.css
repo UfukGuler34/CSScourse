@@ -1,0 +1,106 @@
+/*
+transform: translate(), scale(), rotate(), skew()
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background: red;
+  color: azure;
+  margin: 15px;
+  transition: all 1s;
+}
+
+.one {
+  background: chartreuse;
+  transform: translate(40px, 32px);
+  transform: rotateY(20deg);
+}
+.two {
+  background: red;
+  transform: scaleX(1.5);
+  transform: scaleY(0.5);
+}
+.three {
+  background: violet;
+  transform: rotate(30deg);
+}
+.four {
+  background: black;
+  transform: skew(25deg, -80deg);
+}
+/*
+transition:change over time
+transition-property:
+transition-duration
+*/
+.five {
+  background: blue;
+  transition-property: background, border-radius;
+  transition-duration: 1s;
+}
+.five:hover {
+  border-radius: 50%;
+  background: darkred;
+}
+
+/*
+transition-delay
+*/
+.six {
+  background: brown;
+  transition-property: background, border-radius;
+  transition-duration: 2s;
+  transition-delay: 2s;
+}
+.six:hover {
+  border-radius: 50%;
+  background: rgb(82, 66, 83);
+}
+.seven {
+  background: darkorchid;
+  transition: background 3s 5s;
+}
+.seven:hover {
+  background: darkturquoise;
+}
+.eight {
+  background: rgb(120, 158, 32);
+}
+.nine {
+  background: rgb(151, 23, 102);
+}
+.ten {
+  background: rgb(96, 16, 170);
+}
+
+/*
+how the transition takes plase
+transition-timing-function:
+transition:all 3s here 5s;
+ease = default
+ease = slow start, fast, slow end
+linear = same speed start to end
+ease-in = slow start
+ease-out = slow end
+ease-in-out = slow stat, fast, slow end
+*/
+div:hover {
+  transform: translateX(100px);
+}
+.ease {
+  transition-timing-function: ease;
+}
+.linear {
+  transition-timing-function: linear;
+}
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
