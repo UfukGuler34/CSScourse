@@ -1,0 +1,71 @@
+/*
+Transition 0 - 100%
+ANIMATION 0 1% 2% 3% 4% ... 100%
+*/
+
+div {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  color: white;
+}
+.transition {
+  background: tomato;
+  transition: all 2s linear;
+}
+.transition:hover {
+  background: turquoise;
+  transform: translateX(100px);
+}
+.animation {
+  background: yellow;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  /* animation: move 10s 3 */
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: rebeccapurple;
+  }
+  75% {
+    transform: translateX(-200px);
+    background: darkorange;
+  }
+  100% {
+    transform: translateX(20px);
+    background: chartreuse;
+  }
+}
+
+
+/*
+animation-fill-mode: what values are applied by the animation outside the time it is executing
+*/
+.animation2 {
+  background: lightgreen;
+    animation: move2 5s 4;
+    animation-fill-mode: forwards;
+}
+@keyframes move2{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(200px);
+        opacity: 0.25;
+    }
+    50%{
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 0.5;
+    }
+}

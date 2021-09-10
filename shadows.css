@@ -1,0 +1,14 @@
+/*
+text-shadow
+box-shadow
+*/
+h1{
+    text-shadow: 1px 1px 3px red;
+}
+.divdiv{
+    width: 200px;
+    height: 150px;
+    background: royalblue;
+    margin: 20px;
+    box-shadow: 13px 15px 10px green;
+}

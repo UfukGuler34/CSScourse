@@ -1,0 +1,55 @@
+/*
+CSS VARIABLES AKA Custon Properties
+hold a value and reuse it
+--varName:value
+property:var(--varName)
+scope
+:root{} == global
+element == local
+any property
+
+
+.heading{
+    color: lightgreen;
+}
+.text{
+    color: lightpink;
+}
+.main-text{
+    color: lightskyblue;
+}
+.second-heading{
+    color: ;
+}
+*/
+
+:root {
+  --primaryColor: #f15025;
+  --secondaryColor: #1313fa;
+  --mainTransition: all 2sn linear;
+}
+.heading {
+  color: var(--primaryColor);
+}
+.text {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.text:hover {
+  color: var(--secondaryColor);
+}
+div{
+    --primary-green:green;
+
+}
+.main-text{
+    color: var(--primary-green);
+}
+.third-heading{
+    color: var(--primary-green);
+}
+/*
+ICONS
+Font-Awesome Icons
+free,easy
+*/
